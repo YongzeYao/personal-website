@@ -1,0 +1,12 @@
+.contact {
+  text-align: center;
+
+  p {
+    margin: 10px 50px;
+  }
+
+  &__intro {
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+}

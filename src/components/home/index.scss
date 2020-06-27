@@ -1,0 +1,22 @@
+#fp-nav ul li a span {
+  background: white;
+}
+
+.home {
+  color: white;
+  position: relative;
+
+  #home__menu {
+    position: absolute;
+    z-index: 10000;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    a {
+      margin: 0 10px;
+    }
+  }
+}
